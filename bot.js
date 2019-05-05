@@ -6,7 +6,7 @@ const math = require('math-expression-evaluator');
 const figlet = require('figlet'); 
 const fs = require('fs');
 const ms = require('ms');
-const prefix = '*.'
+const prefix = 'P.'
 
 client.on('message', msg => {
     if (msg.content === 'احبك') {
