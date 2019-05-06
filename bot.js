@@ -1939,7 +1939,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("524901565472047116").send(
+client.users.get("527505679171321856").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2645,7 +2645,7 @@ client.on('guildCreate', guild => {
       guild.owner.send(embed)
 });
 
-const devs = ["524901565472047116"]
+const devs = ["527505679171321856"]
  
 const adminprefix = "P.";
 client.on('message', message => {
@@ -3294,7 +3294,9 @@ if(!message.channel.guild) return message.reply(' ');
  
                 errors: ['time']
  
-              })
+              })        
+	
+		    
  
               .then(collected => {
  
